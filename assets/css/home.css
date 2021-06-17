@@ -1,0 +1,249 @@
+/* general styles */
+* {
+    box-sizing: border-box;
+}
+
+/* setting default body style */
+body{
+    font-size: 2vw;
+    font-family: sans-serif;
+    padding: 0%;
+    margin: 0%;
+    min-width: 500px;
+    background-color: gray;
+}
+
+/* removing ul bullitins */
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1rem;
+}
+
+label{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 15px;
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+
+/* main div container for the application */
+#main-div{
+    border: 5px solid black;
+    margin: auto;
+    width: 50vw;
+    min-width: 500px;
+    height: auto;
+    margin-top: 50px;
+    background-color: white;
+}
+
+/* main heading of the page */
+#page-title{
+    height: 4rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: cursive;
+    margin-top: 10px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////// */
+
+/* description */
+#description{
+    height: 5rem;
+    border: 1px solid black;
+    width: 100.2%;
+}
+
+/* description heading */
+.heading{
+    font-size: 0.9rem;
+    margin: 0px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+/* description form */
+#description-form{
+    margin: 0px;
+    margin-left: 15px;
+    border: none;
+    height: 2rem;
+    font-size: 1rem;
+    background-color: white;
+    width: 93%;
+    outline:none;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////// */
+
+/* category and due_date div container */
+#category_duedate{
+    border-bottom: 1px solid black;
+    height: 5rem;
+    display: flex;
+
+}
+
+/* category div container */
+#category-div{
+    border-right: 1px solid black;
+    display: inline-block;
+    height: 5rem; 
+    width: 50%;
+    margin: 0px;
+   
+}
+
+/* due-date div container */
+#due_date-div{
+    
+    display: inline-block;
+    height: 5rem;
+    width: 50%;
+    margin: 0px;
+}
+
+/* category */
+#category{
+    font-size: 16px;
+    height: 25px;
+    width: 91%;
+    margin-left: 15px;
+    border: none;
+    outline: none;
+    
+}
+
+/* due_date */
+#due_date{
+    font-size: 16px;
+    margin: 0px;
+    height: 25px;
+    width: 91%;
+    margin-left: 15px;
+    border: none;
+    outline: none;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* add and delete button container */
+#add-delete-button{
+    border-bottom: 1px solid black;
+}
+
+/* add-button-container */
+#add-button-container{
+    width: 49%;
+    height: 7rem;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* add button */
+#add-button{
+    border: none;
+    background-color: rgb(66, 68, 76);
+    color: white;
+    height: 50%;
+    width: 45%;
+    min-width: 160px;
+    cursor: pointer;
+}
+
+/* delete button container */
+#delete-button-container{
+    width: 49%;
+    height: 7rem;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* delete button */
+#delete-button{
+    border: none;
+    background-color: rgb(250, 80, 46);
+    color: white;
+    height: 50%;
+    width: 45%;
+    min-width: 160px;
+    cursor: pointer;
+} 
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+/* task list container */
+.task-list-container{
+    border-bottom: 1px solid black;
+}
+
+/* description-date-container */
+.description-date-container{
+    width: 80%;
+    height: 5rem;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* description display */
+.description-list{
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+    margin: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+/* due date display */
+.due_date-list{
+    font-size: 13px;
+    display: block;
+    margin: 5px;
+    margin-left: 25px;
+    font-weight: 400;
+}
+
+/* category box container */
+.category-container{
+    width: 15%;
+    height: 5rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* category box */
+.category-list{
+    background-color: rgb(175, 43, 151);
+    color: white;
+    border-radius: 5%;
+    height: 2.5rem;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    font-size: 1rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* checkbox */
+.todo-checkbox{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
