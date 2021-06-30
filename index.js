@@ -20,7 +20,7 @@ app.use(express.urlencoded());
 app.use(express.static('assets'));
 
 
-// for routes use localhost:8000/ to see the main functionality
+// for routes use localhost:7000/ to see the main functionality
 app.use('/', require('./routes'));
 
 
